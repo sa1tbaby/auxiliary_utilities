@@ -88,6 +88,12 @@ class SortingMethods:
 
         return sort(list_)
 
+    @staticmethod
+    def merge(
+            list_: list[int]
+    ):
+        list_left = list_[:int(len(list_) / 2)]
+        list_right = list_[int(len(list_) / 2):]
 
 
 
