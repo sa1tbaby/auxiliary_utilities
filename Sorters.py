@@ -63,7 +63,7 @@ class SortingMethods:
                         list_[index - 1] = value
 
         return list_
-
+        
     @staticmethod
     def fast(
             list_: list[int]
